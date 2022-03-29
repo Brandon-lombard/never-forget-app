@@ -1,0 +1,68 @@
+/* Css for user favorite cards */
+
+.userFavCardWrapper {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin: 5px auto;
+    border-bottom: 1px solid rgb(255, 0, 0);
+    padding: 5px;
+}
+
+/* All h4 in classname */
+.userFavCardWrapper h4 {
+
+    margin: 20px;
+    border-left: 1px solid rgb(255, 0, 0);
+    padding: 5px;
+    color: rgb(255, 0, 0);
+}
+
+.deleteBtn {
+
+    padding: 5px;
+    border: 1px solid rgb(255, 0, 0);
+    color: rgb(255, 0, 0);
+    background:rgb(255, 255, 255);
+    border-radius: 15px;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.deleteBtn:hover {
+
+    border: 1px solid rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    background:rgb(255, 0, 0);
+}
+
+/* Media queries */
+
+@media only screen and (max-width: 500px) {
+
+    .userFavCardWrapper {
+
+        width: 100%;
+    }
+
+    .userFavCardWrapper h4 { 
+
+        margin: 10px;
+        font-size: 0.7rem;
+    }
+
+    .userFavCardWrapper img {
+
+        height: 60px;
+        width: 60px;
+    }
+    
+    .deleteBtn {
+
+        font-size: 0.5rem;
+        padding: 2px;
+        border-radius: 8px;
+    }
+  }

@@ -1,0 +1,41 @@
+/* css for Header of app */
+
+.headerContainer {
+
+    text-align: center;
+    padding: 50px;
+}
+
+/* App Name con*/
+.appNameCon {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* App name */
+.appName {
+
+    font-size: 5rem;
+    color: rgb(229, 31, 31);
+    letter-spacing: 7px;
+    font-family: 'Anton', sans-serif;
+    padding: 20px;
+}
+
+/* App text */
+.infoTextCon {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* SHort description text */
+.infoText {
+
+    font-size: 1.5rem;
+    color: rgb(229, 31, 31);
+    max-width: 500px;
+}

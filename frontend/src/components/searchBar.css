@@ -1,0 +1,68 @@
+/* Css for search bar */
+
+.searchContainer {
+
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    border-top: 2px solid rgb(255, 0, 0);
+    border-bottom: 2px solid rgb(255, 0, 0);
+    padding: 20px;
+}
+
+.searchBar {
+
+    width: 80%;
+    padding: 5px;
+    font-size: 1.5rem;
+    max-width: 1200px;
+    background-image: url("../images/search.png"); /* image of search icon */
+    background-repeat: no-repeat;
+    background-position: 5px;
+    padding-left: 40px;
+    border: 2px solid rgb(255, 0, 0);
+    border-radius: 15px;
+    margin: 5px;
+}
+
+.searchBar:focus {
+    outline: none;
+}
+
+.dataInput {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.checkbox {
+
+    margin: 10px;
+}
+
+.dataInput label {
+
+    color: rgb(255, 0, 0);
+    margin: 5px;
+}
+
+.searchBtn {
+
+    border-radius: 15px;
+    font-size: 1.5rem;
+    padding: 5px;
+    margin: 5px;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgb(255, 0, 0);
+    font-weight: bold;
+    color: rgb(255, 0, 0);
+}
+
+.searchBtn:hover {
+
+    background-color: rgb(255,0 ,0);
+    color: rgb(255, 255, 255);
+    border: 2px solid rgb(255, 255, 255); 
+}
+

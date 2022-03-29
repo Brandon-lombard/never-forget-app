@@ -1,0 +1,40 @@
+/* Css for search result container */
+
+.searchResultContainer {
+
+    width: 100%;
+    padding:20px;
+}
+
+.resultsHeading {
+
+    color: rgba(255, 249, 249, 0.5);
+    text-align: center;
+    font-size: 2rem;
+}
+
+.back {
+
+    color: rgb(255, 0, 0);
+    margin: auto;
+    font-size: 1.4rem;
+    text-decoration: underline;
+    padding: 5px;
+    width: 200px;
+    text-align: center;
+}
+
+/* On hover of back button change text decoration to show user they on the button */
+
+.back:hover {
+
+    text-decoration: none;
+}
+
+.results {
+
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 95%;
+}

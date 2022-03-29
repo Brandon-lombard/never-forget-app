@@ -1,0 +1,63 @@
+/* Loader css */
+
+  .loaderContainer {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+  }
+  
+  /* Css for all circles */
+  .circle {
+    
+    width: 10px;
+    height: 10px;
+    background-color: rgb(255, 0, 0);
+    border-radius: 50%;
+    margin: 5px;
+    animation: loading 1s linear infinite;
+    position: relative;
+  }
+  
+  /* Each circle ind to add delay to the animation */
+  .circle:nth-child(2) {
+    
+    animation-delay: 0.25s;
+  }
+  
+  .circle:nth-child(3) {
+    
+    animation-delay: 0.5s;
+  }
+  
+  .circle:nth-child(4) {
+    
+    animation-delay: 0.75s;
+  }
+
+  /* Animation Created using keyframes */
+  
+  @keyframes loading {
+    
+    0%{
+      opacity:1;
+    }
+    
+      25% { 
+      transform: translateY(10px);
+    }
+    
+    50% { 
+      opacity: 0;
+    }
+    
+    75% { 
+      transform: translateY(-10px);
+    } 
+    
+    100% { 
+      opacity: 1;
+    }
+  }
